@@ -1,9 +1,15 @@
 package main
 
 import (
-	"fmt"
+	"net/http"
+
+	"github.com/go-chi/chi/v5"
+	"github.com/marianodsr/routes"
 )
 
 func main() {
-	fmt.Println("hello from files microservice")
+	r := chi.NewRouter()
+
+	routes.HandleRoutes(r)
+	http.ListenAndServe(":8081", r)
 }

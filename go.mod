@@ -9,6 +9,7 @@ require (
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.2.0 // indirect
 	github.com/go-chi/chi/v5 v5.0.1 // indirect
+	github.com/go-chi/cors v1.2.0 // indirect
 	github.com/golang/protobuf v1.5.1 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect

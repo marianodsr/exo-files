@@ -1,4 +1,4 @@
-#exo-files
+# exo-files
 
 Files microservice for EXO.
 
